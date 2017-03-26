@@ -9,6 +9,32 @@ body{
     background: url(123.jpg);
     background-size: 110%;
 }
+#main{
+	-webkit-border-radius: 20px 20px 20px 22px;
+	-moz-border-radius: 20px 20px 20px 22px;
+	border-radius: 20px 20px 20px 22px;
+	background-color:#FFFCFF;-webkit-box-shadow: #DBDBDB 14px 14px 14px;-moz-box-shadow: #DBDBDB 14px 14px 14px; box-shadow: #DBDBDB 14px 14px 14px;"
+}
+
+.section{
+	-webkit-border-radius: 20px 20px 20px 22px;
+	-moz-border-radius: 20px 20px 20px 22px;
+	border-radius: 20px 20px 20px 22px;
+	border:1px solid;
+}
+
+.section div{
+	#display:none;
+}
+
+.section p:hover > div {
+
+	display:block;
+}
+
+#main p{
+	font-size:14px;
+}
 
 #nav_wrapper{
 	float:left;
